@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tarjeta Personal</title>
+  <script type="module" src="./tarjeta_usuario.js"></script>
+  <style>
+    body {
+      background-color: #badaf9;
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Uso del componente con slots -->
+  <tarjeta-usuario tema="#ffffff">
+    <h2 slot="titulo">Giovanny Durán</h2>
+    <p slot="contenido">
+      Estudiante Militar de planta en la Universidad de Fuerzas Armadas ESPE sede Santo Domingo,
+      de la carrera Ingeniería en Tecnologías de la Información, cursando el 6to nivel.
+    </p>
+  </tarjeta-usuario>
+
+</body>
+</html>
