@@ -7,4 +7,4 @@ Este repositorio contiene un componente Web Component personalizado llamado `<ta
 ├── tarjeta_usuario.js # Lógica y estilos del componente
 ├── index.html # Ejemplo de uso del componente
 └── reporte.md # 
-
+├── docs/ # Informe con Capturas de pantalla y evidencias
